@@ -1,0 +1,30 @@
+Caesura rulebook:
+-----------------
+
+Objective: Be the first player to reach 500 points, without running out of moves. 
+
+Controls: 
+-Player 1 (red) moves with WASD, player 2 (blue) moves with the arrow keys.
+-press m to return to the menu at any time, and 'space' to begin a new game from the menu
+
+Rules:
+-If a player collides with the orange or green entity, the player loses all of their current tiles on the board
+and is sent back to their starting position
+
+-If two players collide, the player with the lower movement point count is sent back to their starting position
+
+-When the Caesura effect happens, the number of tiles each player controls is added to their score
+
+-When the Caesura effect happens, players can only move on tiles of their color or entity-captured tiles
+
+-players can pick up items to increase their movement points or score
+
+-There are three speeds of movement that can be controled by the three switches on the board and are designated
+by three different speeds of music:
+--normal speed: players control movement at a 1 input to 1 tile pace. Entities behave normally. 
+--slow speed: each movement costs twice as many movement points, entities drop items slower.
+--fast speed: players must constantly move, inputs simply change directions
+
+-If a player moves against a wall during fast speed, they will induce a 'struggle' mechanic and lose movement points
+at an incredibly fast rate. 
+
